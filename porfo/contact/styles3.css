@@ -1,0 +1,93 @@
+/*phan header*/
+body {
+    padding-top: 56px; /* Để tránh che phủ nội dung khi thanh navbar fixed-top xuất hiện */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: lightgray;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Đẩy logo về phía bên phải */
+}
+.navbar-nav {
+    margin-right: 10px; /* Để giữ các mục navbar cách xa logo */
+}
+#logo{
+    weight: 20px;
+    height: 20px;
+    
+}
+/**/
+main{
+    background-image: url(pictures/anh-nen-xam-den.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat ;
+
+}
+fieldset{
+    background-color: white;
+    margin: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+/* nav*/
+#home:hover{
+    color: goldenrod;
+}
+#cv:hover{
+    color: goldenrod;
+
+}
+#contact:hover{
+    color: goldenrod;
+}
+#minigame:hover{
+    color: goldenrod;
+}
+#apropos:hover{
+    color: goldenrod;
+
+}
+
+footer{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.lgf{
+
+    height: 40px;
+    width: auto;
+    border-radius: 10%;
+
+}
+/*code pour contact*/
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder ;
+
+}
+fieldset{
+    padding: 50px 50px 50px 50px;
+    font-size: 20px;
+}
+textarea{
+    width: 200px;
+    height: 50px;
+}
+.sao{
+    height: 25px;
+    width: auto;
+}
+.hide{
+    display: none;
+}
+.envoi{
+    text-align: center;
+}
